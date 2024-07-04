@@ -1,0 +1,118 @@
+.github-profile-finder {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 3px solid #2520af;
+  border-radius: 30px;
+  background-color: #4a5052;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20;
+  color: white;
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 14px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border-radius: 14px;
+  color: white;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.loading,
+.error,
+.no-profile {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 26px;
+  color: white;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile h2 {
+  margin-bottom: 5px;
+  color: #e2d6d6;
+  padding: 5px;
+  text-decoration: underline;
+}
+
+.profile p {
+  color: #e2d6d6;
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+
+.view-profile-button {
+  margin-top: 10px;
+}
+
+.view-profile-button button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 19px;
+}
+
+.view-profile-button button:hover {
+  background-color: #35d057;
+}
+h3 {
+  color: white;
+  font-size: larger;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
